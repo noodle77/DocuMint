@@ -1,25 +1,33 @@
-# Professional README Generator Starter Code
+# DocuMint
+  ![License](https://img.shields.io/badge/License-MIT-blue.svg)
 
-[How to create a Professional README](https://coding-boot-camp.github.io/full-stack/github/professional-readme-guide)
+  ##Description
+  It generates READMEs for days.
 
-## Acceptance Criteria
-- WHEN I am prompted for information about my application repository
-- THEN a high-quality, professional README.md is generated with the title of my project and sections entitled Description, Table of Contents, Installation, Usage, License, Contributing, Tests and Questions
+  ## Table of Contents
+  - [Installation](#installation)
+  - [Usage](#usage)
+  - [Contributing](#contributing)
+  - [Testing](#testing)
+  - [License](#license)
+  - [Contact](#contact)
 
-- WHEN I enter my project title
-- THEN this is displayed as the title of the README
+  ## Installation
+  npm i
 
-- WHEN I enter a description, installation instructions, usage information, contribution guidelines, and test instructions
-- THEN this information is added to the sections of the README entitled Description, Installation, Usage, Contributing, and Tests
+  ## Usage
+  node index.js
 
-- WHEN I choose a license for my application from a list of options
-- THEN a badge for that license is added near the top of the README and a notice is added to the section of the README entitled License that explains which license the application is covered under
+  ## Contributions
+  Me, Myself, and I
 
-- WHEN I enter my GitHub username
-- THEN this is added to the section of the README entitled Questions, with a link to my GitHub profile
+  ## Testing
+  Nope
 
-- WHEN I enter my email address
-- THEN this is added to the section of the README entitled Questions, with instructions on how to reach me with additional questions
+  ## License
+  This project is licensed under The MIT License. Please see below for details.
+  Click ![here](https://opensource.org/licenses/mit) to learn more about the scope of this project's license.
 
-- WHEN I click on the links in the Table of Contents
-- THEN I am taken to the corresponding section of the README
+  ## Contact
+  For any questions about the project, check out [noodle77](https://github.com/noodle77) on GitHub,
+  or email us at casperclaw33@gmail.com.
