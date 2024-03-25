@@ -56,7 +56,7 @@ function renderLicenseLink(license) {
   if (license === 'None/Other') {
     return '';
   } else {
-    return `Click ![here](https://opensource.org/licenses/${nuLicense[license]}) to learn more about the scope of this project's license.`;
+    return `Click [here](https://opensource.org/licenses/${nuLicense[license]}) to learn more about the scope of this project's license.`;
   };
 };
 
@@ -69,13 +69,13 @@ function mdGen(data) {
   return `# ${data.title}
   ${licenseBadge}
 
-  ##Description
+  ## Description
   ${data.description}
 
   ## Table of Contents
   - [Installation](#installation)
   - [Usage](#usage)
-  - [Contributing](#contributing)
+  - [Contributions](#contributions)
   - [Testing](#testing)
   - [License](#license)
   - [Contact](#contact)
@@ -94,6 +94,7 @@ function mdGen(data) {
 
   ## License
   ${licenseSection}
+
   ---
   ${licenseLink}
 
