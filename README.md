@@ -1,13 +1,13 @@
 # DocuMint
   ![License](https://img.shields.io/badge/License-MIT-blue.svg)
 
-  ##Description
-  It generates READMEs for days.
+  ## Description
+  It generates READMEs for days!
 
   ## Table of Contents
   - [Installation](#installation)
   - [Usage](#usage)
-  - [Contributing](#contributing)
+  - [Contributions](#contributions)
   - [Testing](#testing)
   - [License](#license)
   - [Contact](#contact)
@@ -19,15 +19,17 @@
   node index.js
 
   ## Contributions
-  Me, Myself, and I
+  N/A
 
   ## Testing
-  Nope
+  N/A
 
   ## License
   This project is licensed under The MIT License. Please see below for details.
-  Click ![here](https://opensource.org/licenses/mit) to learn more about the scope of this project's license.
+
+  ---
+  Click [here](https://opensource.org/licenses/mit) to learn more about the scope of this project's license.
 
   ## Contact
-  For any questions about the project, check out [noodle77](https://github.com/noodle77) on GitHub,
-  or email us at casperclaw33@gmail.com.
+  Email me at casperclaw33@gmail.com for any questions about this project, and
+  if you want to see more of my projects, check out [noodle77](https://github.com/noodle77) on GitHub.
