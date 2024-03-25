@@ -36,6 +36,28 @@ const questions = [
         message: "Include any tests you've written for the project."
     },
     {
+        type: 'list',
+        name: 'license',
+        message: 'Pick the license from the list (if applicable). Otherwise, pick the empty string.',
+        // GitHub's available licenses listed in order 
+        // (no Creative Commons option on shields.io or opensource.org)
+        choices: [
+            'Apache License 2.0',
+            'GNU General Public License v3.0',
+            'MIT License',
+            "BSD 2-Clause 'Simplified' License",
+            "BSD 3-Clause 'New' License",
+            'Boost Software License 1.0',
+            'Eclipse Public License 2.0',
+            'GNU Affero General Public License v3.0',
+            'GNU General Public License v2.0',
+            'GNU Lesser General Public License v2.1',
+            'Mozilla Public License 2.0',
+            'Unlicense',
+            'None/Other'
+        ]
+    },
+    {
         type: 'input',
         name: 'username',
         message: 'Enter your GitHub username.'
@@ -44,12 +66,7 @@ const questions = [
         type: 'input',
         name: 'email',
         message: 'Enter your email.'
-    },
-    {
-        type: 'list',
-        name: 'license',
-        message: 'Pick the license from the list (if applicable). Otherwise, pick the empty string.'
-    },
+    }
 ];
 
 // TODO: Create a function to write README file
