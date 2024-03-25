@@ -13,16 +13,10 @@
   - [Contact](#contact)
 
   ## Installation
-  Once in your terminal, cd into this app's directory (location may vary), to download the necessary dependencies, simply run 'npm install' (Node.js and node package manager required). The dependencies should now be installed. 
+  Once in your terminal, cd into this app's directory (location may vary). To download the necessary dependencies, simply run 'npm install' (Node.js and node package manager required). The dependencies should now be installed in the application's directory. 
 
   ## Usage
   After you've installed the dependencies, run 'node index.js' to initialize the application. The first question should appear in your terminal after doing this.
-
-  ## Contributions
-  N/A
-
-  ## Testing
-  N/A
 
   ## License
   This project is licensed under The MIT License. Please see below for details.
