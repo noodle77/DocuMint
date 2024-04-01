@@ -85,7 +85,7 @@ function init() {
     inquirer.prompt(questions)
         .then((answers) => {
             const answerGen = mdGen(answers);
-            writeToFile('README.md', answerGen);
+            writeToFile('./exp/README.md', answerGen);
         })
         .catch((error) => {
             console.error(error);
